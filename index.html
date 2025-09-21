@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <title>Vohiar</title>
+        <style>
+    
+        /*Fundo Rosa e Seting do padding e marging*/  
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(243, 156, 185);
+            text-align: center;
+        }
+        
+        /*fundo Branco mesmo*/
+        .fundo{ /*Apenas o formato da caixa, no ínicio do site*/
+            background-color: white;
+            padding: 50;
+            margin: 30px;
+            border-radius: 10px;
+            height: 2100;
+           
+            
+        }
+
+        /*Onde vai ficar produto, escrita, valor, e foto*/
+        #caixa{
+           padding: 20;
+           width: 300;
+           height: 400;
+           background-color: rgb(255, 224, 224);
+           border-radius: 30px;
+           display: inline-block;
+           margin: 40;
+           box-shadow: 0px 10px 20px rgba(0,0, 0, 0.8)
+        }
+
+        /*Estilização do botão*/
+        #valor {
+            margin:35;
+            background-color: rgb(233, 218, 218) ;
+            margin-top: 5;
+            padding: 1,5;
+            width: 100;
+            border-radius: 10px;
+            cursor: pointer;
+            border-color: rgb(206, 206, 206);
+            transition: background 0.3;
+            border: none
+        }
+
+        /*Transição de cor do botão*/
+        #valor:hover{
+            background-color: rgba(194, 193, 193, 0.952);
+        }
+
+        /*Como a imagem vai ficar na caixa*/
+        #fotos{
+            border-radius: 20px;
+            width: 300;
+            height: 370;
+           
+        }
+
+        /*Nome do produto dentro da caixa*/
+        #item{
+            margin-bottom: 5;
+            background-color: rgb(255, 224, 224);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        /*Cada DIV equivale a um produto, obrigatorio: mudar imagem, nome e valor, apenas isso*/
+        
+        #fot {
+            background-color: pink;
+        }
+
+        #cabecario{
+           background-color: rgb(238, 245, 248);
+           height: 65;
+           border-radius: 10px;
+           margin:10;
+           color: rgb(238, 245, 248);
+        }
+
+        #digite{
+            align-items: start;
+            border-radius: 20px;
+            width: 300;
+            margin-top: 20;
+            margin-bottom: -10;
+            padding: 3;
+            background-color: aliceblue;
+            border-color: rgb(190, 190, 189);
+        }
+
+        #i{
+            margin-top: 15;
+            border-radius: 20px;
+        }
+        </style>
+    </head>
+    <body>            
+        <div id="cabecario">
+            <input type="text" id="digite" placeholder="O que você procura hoje?">
+            <p style="background-color: rgb(238, 245, 248); color:black" id="i">Estamos com promoções em alguns dos nossos produtos. Aproveite, e obrigado por estar aqui!</p>
+        </div>
+        <div class="fundo">
+            
+            <div id="caixa">
+                <p id="item">Limpador Facial-Vohiar</p>
+                <img id="fotos" src="limpa.png">
+                <button id="Valor">79,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Perfume-Vohiar</p>
+                <img id="fotos" src="Perfuma.png">
+                <button id="Valor">120,30</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Perfume Aconchegante-Vohiar</p>
+                <img id="fotos" src="perfume.png">
+                <button id="Valor">90,00</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Produtos Facil-Vohiar</p>
+                <img id="fotos" src="Produtos.png">
+                <button id="Valor">48,99</button>
+            </div>
+            <br>
+            <div id="caixa">
+                <p id="item">Batom-Vohiar</p>
+                <img id="fotos" src="batom.png">
+                <button id="Valor">139,00</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Paleta de Sombra-Vohiar</p>
+                <img id="fotos" src="paleta.png">
+                <button id="Valor">23,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Sabonete Facil-Vohiar</p>
+                <img id="fotos" src="sabonete.png">
+                <button id="Valor">29,52</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Creme para o Rosto-Vohiar</p>
+                <img id="fotos" src="creme.png">
+                <button id="Valor">53,42</button>
+            </div>
+            <br>
+            <div id="caixa">
+                <p id="item">Esmalte-Vohiar</p>
+                <img id="fotos" src="esmalte.png">
+                <button id="Valor">50,00</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Lápis Preto para Olhos-Vohiar</p>
+                <img id="fotos" src="lapis.png">
+                <button id="Valor">45,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Condicionador-Vohiar</p>
+                <img id="fotos" src="shampoo.png">
+                <button id="Valor">94,83</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Gloss Dourado-Vohiar</p>
+                <img id="fotos" src="gloss.png">
+                <button id="Valor">23,50</button>
+            </div>
+            <br>
+            <div id="caixa">
+                <p id="item">Perfume Elegante-Vohiar</p>
+                <img id="fotos" src="Perfume.png">
+                <button id="Valor">499,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Água Micelar-Vohiar</p>
+                <img id="fotos" src="água.png">
+                <button id="Valor">89,20</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Deliniador-Vohiar</p>
+                <img id="fotos" src="deliniador.png">
+                <button id="Valor">80,77</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Máscara pra Cilíos-Vohiar</p>
+                <img id="fotos" src="mascara.png">
+                <button id="Valor">127,00</button>
+            </div>
+        </div>
+        <footer id="fot" style="padding-bottom: 10;">Sobre Nós <br>
+        Somos uma empresa com 7 funcionários, e estamos tentando nos destacar na internet pela qualidade de nossos produtos! <br>
+        Caso queira saber mais sobre nós, clique no link a seguir: <br>
+        <a href="sobre.html">Sobre nós</a>
+        </footer>
+    </body>
+</html>
